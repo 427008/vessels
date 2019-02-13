@@ -1,0 +1,1 @@
+0 17 * * * (cd /home/andrey/vessels && . venv/bin/activate && python3 marine.py && deactivate) >>/home/andrey/vessels/Data/marine_o.log 2>>/home/andrey/vessels/Data/marine_e.log

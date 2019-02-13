@@ -1,0 +1,2 @@
+0 17 * * * (cd /home/ubuntu/vessels && python3 marine.py) >>/home/ubuntu/vessels/Data/marine_o.log 2>>/home/ubuntu/vessels/Data/marine_e.log
+
